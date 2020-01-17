@@ -1,0 +1,42 @@
+{
+  "name": "hourglass",
+  "version": "1.0.0",
+  "description": "A hackable hourglass for web projects",
+  "main": "index.js",
+  "style": "dist/css/style.css",
+  "homepage": "https://github.com/zaagan/hourglass#readme",
+  "scripts": {
+    "start": "node index.js",
+    "build-scss": "node-sass ./src/scss -o ./dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaagan/hourglass.git"
+  },
+  "keywords": [
+    "hourglass",
+    "loader",
+    "timesand"
+  ],
+  "author": "zaagan",
+  "maintainers": [
+    {
+      "name": "Ozesh Thapa",
+      "web": "https://www.debuggershub.com/",
+      "git": "https://github.com/zaagan"
+    },
+    {
+      "name": "Subarna Maharjan",
+      "git": "https://github.com/mansubarna"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaagan/hourglass/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7"
+  }
+}
