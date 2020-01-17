@@ -37,3 +37,6 @@ npm start
 ## Demo
 
 ![Hour Glass](/resources/hourglass.gif)
+
+[Checkout the Demo On CodePen](https://codepen.io/subarna/pen/NWPYQYg)
+
